@@ -1,0 +1,54 @@
+{
+	"name": "threejs-sveltekit",
+	"version": "1.0.0",
+	"description": "Three.js example app built with Svelte",
+	"author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+	"homepage": "https://jasonsturges.github.io//threejs-sveltekit/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jasonsturges/threejs-sveltekit"
+	},
+	"license": "ISC",
+	"keywords": [
+		"3d",
+		"three",
+		"svelte",
+		"sveltekit",
+		"graphics"
+	],
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"lil-gui": "^0.19.2",
+		"tailwind-merge": "^2.5.2",
+		"tailwind-variants": "^0.2.1",
+		"three": "0.148.0",
+		"threejs-sveltekit": "file:"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "3.2.4",
+		"@sveltejs/kit": "2.5.24",
+		"@types/node": "^22.5.0",
+		"@types/three": "0.167.2",
+		"autoprefixer": "^10.4.20",
+		"flowbite": "^2.5.1",
+		"flowbite-svelte": "^0.46.15",
+		"flowbite-svelte-icons": "^1.6.1",
+		"svelte": "4.2.19",
+		"svelte-check": "3.8.6",
+		"svelte-preprocess": "6.0.2",
+		"tailwindcss": "^3.4.9",
+		"tslib": "2.7.0",
+		"typescript": "5.5.4",
+		"unplugin-turbo-console": "^1.10.1",
+		"vite": "5.4.2"
+	}
+}
